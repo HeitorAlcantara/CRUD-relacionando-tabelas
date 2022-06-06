@@ -42,4 +42,5 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <script src="js/appPaciente.js"></script>
 <script src="js/appMedico.js"></script>
 <script src="js/appConsulta.js"></script>
+<script src="js/appUsuario.js"></script>
 </html>

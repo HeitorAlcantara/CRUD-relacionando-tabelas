@@ -19,7 +19,7 @@ class PacientesController extends AppController {
         }
     }
 
-    public function edit($id = null) {
+    public function edit($id) {
         $this->Paciente->id = $id;
         if($this->request->is('get')) { 
             $this->request->data = $this->Paciente->findById($id);
